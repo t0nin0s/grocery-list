@@ -1,0 +1,39 @@
+.grocery {
+  &-list {
+    width: 95%;
+    margin: 0 auto;
+    @media only screen and (min-width: 1024px) {
+      width: 100%;
+    }
+  }
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+    border-bottom: 1px solid #cbd6e2
+  }
+  
+  &-name {
+    display: flex;
+    text-align: left;
+    flex-grow: 2;
+    cursor: pointer;
+
+    label {
+      cursor: pointer;
+      flex-grow: 2;
+    }
+  }
+
+  &-actions {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @media only screen and (min-width: 1024px) {
+      flex-direction: row;
+      button:last-child {
+        margin-left: .5rem;
+      }
+    }
+  }
+}

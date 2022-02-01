@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+  width: 150px;
+  height: 40px;
+}
+
+.header {
+  background-color: #1795d4;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: #dff9ff;
+  padding: 20px 0;
+  border-bottom: 1px solid #cdeeff;
+  @media only screen and (min-width: 1024px) {
+    justify-content: flex-end;
+    font-size: 18px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media only screen and (min-width: 1024px) {
+      width: 1024px;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  }
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.section {
+  padding: 20px 0;
+
+  &--main {
+    background-color: #1795d4;
+    color: white;
+  }
+
+  &--secondary {
+    background-color: white;
+    color: #333333;
+  }
+}

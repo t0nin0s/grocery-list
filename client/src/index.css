@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  color: #333333;
+  font-family: Lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, input {
+  box-sizing: border-box;
+}
